@@ -1,0 +1,149 @@
+:root{
+    --color_primary_red: #E51937;
+
+}
+a{
+    cursor: pointer;
+}
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    margin: 24px 60px 60px 40px;
+    justify-content: space-between;
+
+}
+.menu1, .menu2{
+    display: flex;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.menu1 .menu__item{
+    margin-right: 40px;
+}
+.menu2 .menu__item{
+    margin-right: 30px;
+}
+
+nav li a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    color: #000;
+    padding-bottom: 5px;
+    transition: 0.1s;
+}
+nav li a:hover{
+    color: var(--color_primary_red);
+    border-bottom: 2px solid var(--color_primary_red);
+}
+.tesla-title{
+    background-image: url('/html_images/Tesla\ logo\ +\ car.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 594px;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.tesla-title h1{
+font-size: 90px;
+font-weight: 600;
+line-height: 110px;
+margin: 0;
+padding: 0;
+letter-spacing: 0em;
+}
+.tesla-title p{
+
+font-size: 15px;
+font-weight: 500;
+line-height: 18px;
+margin: 0;
+padding: 0;
+}
+
+.tesla-info{
+display: flex;
+justify-content: center;
+margin-bottom: 40px;
+}
+
+.info_block{
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+}
+.info_block_img {
+    width: 46px;
+
+    margin-right: 14px;
+}
+
+.info_block_text1{
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 43px;
+}
+.info_block_text1 span{
+ 
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    
+}
+
+.test-drive{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 16px;
+  
+}
+.test-drive img{
+    margin-right: 7px;
+}
+
+.order{
+
+font-size: 13px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: center;
+text-transform: uppercase;
+color: var(--color_primary_red);
+margin-left: 40px;
+border: 2px solid var(--color_primary_red);
+min-width: 147px;
+min-height: 40px;
+}
+
+.arrow-bottom{
+    text-align: center;
+    display: block;
+}
