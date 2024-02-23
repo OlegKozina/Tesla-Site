@@ -288,7 +288,7 @@ cursor: pointer;
 }
 .main_inner{
     display: flex;
-    background-image: url('../html_images/2013-tesla-model-s-cockpit.png');
+    /* background-image: url('../html_images/2013-tesla-model-s-cockpit.png'); */
     background-repeat: no-repeat;
     width: 100%;
     justify-content: space-between;
