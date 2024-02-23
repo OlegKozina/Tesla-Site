@@ -61,7 +61,7 @@ nav li a:hover{
     border-bottom: 2px solid var(--color_primary_red);
 }
 .tesla-title{
-    background-image: url('/html_images/Tesla\ logo\ +\ car.png');
+    background-image: url('../html_images/Tesla\ logo\ +\ car.png');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 594px;
