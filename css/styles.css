@@ -4,6 +4,7 @@
 }
 a{
     cursor: pointer;
+    text-decoration: none;
 }
 
 *{
@@ -139,8 +140,10 @@ text-transform: uppercase;
 color: var(--color_primary_red);
 margin-left: 40px;
 border: 2px solid var(--color_primary_red);
-min-width: 147px;
-min-height: 40px;
+min-width: 180px;
+height: 40px;
+margin-top: 10px;
+cursor: pointer;
 }
 
 .arrow-bottom{
@@ -150,9 +153,70 @@ min-height: 40px;
 
 
 @media (max-width:768px){
+    .menu__item {
+        display: none;
+    }
     .container{
         width: 768px;
     }
+
+    .tesla-info{
+        flex-wrap: wrap;
+        margin-bottom: 63px;
+    }
+    .tesla-title{
+        min-height: 435px;
+        background-size: contain;
+        background-position: center bottom;
+    }
+    nav{
+        margin: 24px, 33px, 94px, 15px;
+    }
+    .tesla-title h1{
+        font-size: 90px;
+        line-height: 110px;
+    }
+    .tesla-title p{
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .info_block{
+        /* margin-right: 140px; */
+        margin-bottom: 32px;
+        margin-left: 22px;
+    }
+    .info_block img{
+        width: 65px;
+    }
+    .info_block:nth-child(2){
+        margin-right: 0px;
+    }
+    .tesla-info:nth-child(2){
+        margin-right: 0;
+    }
+    .info_block_text1{
+        font-size: 50px;
+        line-height: 61px;
+        margin-bottom: 2px;
+       
+    }
+    .info_block_text2{
+        font-size: 10px;
+        line-height: 10px;
+    }
+    .test-drive{
+        font-size: 16px;
+        line-height: 20px;
+        margin-left: 0px;
+        margin-right: 130px;
+    }
+    .order{
+        font-size: 16px;
+        margin-top: 0px;
+        margin-left: 42px;
+    }
+
+
 }
 @media (max-width:390px){
     .menu__item {
@@ -164,6 +228,8 @@ min-height: 40px;
 
     .tesla-info{
         flex-wrap: wrap;
+        margin-bottom: 34px;
+        justify-content: space-around;
       
     }
     .tesla-title{
@@ -185,9 +251,12 @@ min-height: 40px;
     .info_block{
         margin-right: 0;
         margin-bottom: 43px;
+        margin-left: 0px;
     }
+
+   
     .info_block:nth-child(2){
-        margin-left: 40px;
+        margin-right: 0px;
     }
     .tesla-info:nth-child(2){
         margin-right: 0;
@@ -195,7 +264,6 @@ min-height: 40px;
     .info_block_text1{
         font-size: 27px;
         line-height: 27px;
-        margin-bottom: 10px;
         margin-bottom: 2px;
     }
     .info_block_text2{
@@ -206,4 +274,110 @@ min-height: 40px;
         margin-left: 0px;
         margin-right: 25px;
     }
+    .order{
+        margin-left: -55px;
+    }
 }
+
+
+.main{
+    
+    height: 900px;
+    margin-top: 40px;
+    color: #fff;
+}
+.main_inner{
+    display: flex;
+    background-image: url('../html_images/2013-tesla-model-s-cockpit.png');
+    background-repeat: no-repeat;
+    width: 100%;
+    justify-content: space-between;
+ 
+}
+.main-title{
+    font-size: 70px;
+    font-weight: 600;
+    line-height: 85px;
+    text-align: left;
+    color: var(--color_primary_red);
+    margin: 0;
+    margin-left: 100px;
+}
+
+.main-right{
+    background-color: var(--color_primary_red);
+    color: white;
+    padding: 50px;
+ 
+    width: 440px;
+}
+.features img{
+    margin-right: 19px;
+    align-self: center;
+}
+.main-top{
+    margin-bottom: 54px;
+}
+.main-top h3{
+   
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin: 0;
+
+
+}
+.features{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    
+}
+
+.features__accent{
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 43px;
+    letter-spacing: 0em;
+    
+}
+
+.features__text{
+
+font-size: 12px;
+font-weight: 400;
+line-height: 15px;
+margin: 0;
+
+}
+.features__title{
+    margin: 0;
+}
+.main-bottom{
+    display: flex;
+    margin-top: 200px;
+}
+.information{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+.information div a{
+    color: #fff;
+}
+.information img{
+    align-self: center;
+    margin-right: 10px;
+}
+.inverse-button{
+    color: #fff;
+    margin-left: 30px;
+    width: 160px;
+    margin: 0;
+    border-color: #fff;
+   
+}
+
+
