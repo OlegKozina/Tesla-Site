@@ -5,6 +5,7 @@ $(document).ready(function(){
         $('.tesla-title h1').text($(this).text());
         $('.main-title').text($(this).text());
         $('.footer-right h3').text($(this).text());
+        $('.model-change').text($(this).text());
 
         e.preventDefault();
     })
