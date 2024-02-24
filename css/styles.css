@@ -101,6 +101,9 @@ nav li a:hover{
     color: #fff;
   
 }
+.mobile-menu__nav img{
+    filter:brightness(10);
+}
 .mobile-menu__nav li{
     margin-bottom: 20px;
 }
