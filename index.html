@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <script src="./js/jquery-3.7.1.min.js"></script>
   </head>
   <body>
     <header class="header">
@@ -20,21 +21,33 @@
             ><img src="./html_images/Tesla-Wordmark-Red.png" alt=""
           /></a>
           <ul class="menu1">
-            <li><a href="" class="menu__item">Model S</a></li>
-            <li><a href="" class="menu__item">Model X</a></li>
-            <li><a href="" class="menu__item">Model 3</a></li>
-            <li><a href="" class="menu__item">Roadster</a></li>
-            <li><a href="" class="menu__item">Energy</a></li>
+            <li><a href="./html_images/tesla_logo+car1.png" class="menu__item">Model S</a></li>
+            <li><a href="./html_images/tesla_logo+car2.png" class="menu__item">Model X</a></li>
+            <li><a href="./html_images/tesla_logo+car3.png" class="menu__item">Model 3</a></li>
+            <li><a href="./html_images/tesla_logo+car4.png" class="menu__item">Roadster</a></li>
+            <li><a href="./html_images/tesla_logo+car5.png" class="menu__item">Energy</a></li>
           </ul>
           <ul class="menu2">
             <li><a href="" class="menu__item">Shop</a></li>
             <li><a href="" class="menu__item">Sign up</a></li>
             <li><button class="menu_button" type="button" ><img src="./html_images/menu.png" alt="" /></button></li>
           </ul>
+          <div class="mobile-menu">
+            <button class="mobile-menu__button menu_close" type="button"><img src="./Html_Images/icon-close.svg" alt=""></button>
+            <ul class="mobile-menu__nav">
+                <li> <img src="./Html_Images/Tesla-Wordmark-Red.png" alt="tesla_logo"></li>
+                <li><a href="./html_images/tesla_logo+car1.png" class="mobile-menu__item">Model S</a></li>
+                <li><a href="./html_images/tesla_logo+car2.png" class="mobile-menu__item">Model X</a></li>
+                <li><a href="./html_images/tesla_logo+car3.png" class="mobile-menu__item">Model 3</a></li>
+                <li><a href="./html_images/tesla_logo+car4.png" class="mobile-menu__item">Roadster</a></li>
+                <li><a href="./html_images/tesla_logo+car5.png" class="mobile-menu__item">Energy</a></li>
+            </ul>
+        </div>
         </nav>
-        <div class="tesla-title" style="background-image: url('./html_images/Tesla\ logo\ +\ car.png');">
+        <div class="tesla-title">
           <h1>Model S</h1>
           <p>Welcome to the future</p>
+          <img src="./html_images/tesla_logo+car1.png" alt="">
         </div>
         <div class="tesla-info">
           <div class="info_block">
@@ -271,5 +284,7 @@
       </div> 
    </div>
     <script src="./js/main.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>

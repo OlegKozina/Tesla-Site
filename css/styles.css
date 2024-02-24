@@ -46,6 +46,10 @@ nav{
     margin-right: 30px;
 }
 
+.menu2 li button{
+    display: none;
+}
+
 nav li a{
     font-style: normal;
     font-weight: 600;
@@ -65,6 +69,46 @@ nav li a:hover{
     border-style: none;
     cursor: pointer;
 }
+
+.mobile-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color_primary_red);
+    transform: translateX(100%);
+    transition: transform 0.5s;
+
+    z-index: 10; 
+}
+.is-open{
+    transform: translateX(0);
+}
+
+.mobile-menu__button{
+    position: relative;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    float: right;
+    top: 50px;
+    right: 50px;
+    filter:brightness(10);
+}
+
+.mobile-menu__item{
+    color: #fff;
+  
+}
+.mobile-menu__nav li{
+    margin-bottom: 20px;
+}
+.mobile-menu__nav li a:hover{
+    color: black;
+    border-bottom: 2px solid white;
+}
+
 .tesla-title{
     /* background: url("../html_images/Tesla\ logo\ +\ car.png"); */
     background-repeat: no-repeat;
@@ -72,6 +116,11 @@ nav li a:hover{
     min-height: 594px;
     text-align: center;
     margin-bottom: 26px;
+
+}
+.tesla-title img{
+    position: relative;
+    z-index: -1;
 }
 .tesla-title h1{
 font-size: 90px;
@@ -80,7 +129,13 @@ line-height: 110px;
 margin: 0;
 padding: 0;
 letter-spacing: 0em;
+
 }
+.tesla-title h1, .tesla-title p{
+    position: relative;
+    top: 50px;
+}
+
 .tesla-title p{
 
 font-size: 15px;
@@ -161,6 +216,11 @@ cursor: pointer;
     .menu__item {
         display: none;
     }
+
+    .menu2 li button{
+        display: block;
+    }
+
     .container{
         width: 768px;
     }
@@ -174,6 +234,10 @@ cursor: pointer;
         background-size: contain;
         background-position: center bottom;
     }
+
+    .tesla-title img{
+        width: 768px;
+    }
     nav{
         margin: 24px, 33px, 94px, 15px;
     }
@@ -184,6 +248,9 @@ cursor: pointer;
     .tesla-title p{
         font-size: 15px;
         line-height: 18px;
+    }
+    .tesla-title h1, .tesla-title p{
+        top: 0;
     }
     .info_block{
         /* margin-right: 140px; */
@@ -236,6 +303,9 @@ cursor: pointer;
         margin-bottom: 34px;
         justify-content: space-around;
       
+    }
+    .tesla-title img{
+        width: 390px;
     }
     .tesla-title{
         min-height: 200px;
