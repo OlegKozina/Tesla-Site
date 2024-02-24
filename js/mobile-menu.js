@@ -13,6 +13,9 @@ $(document).ready(function(){
 
         $('.tesla-title img').hide().attr('src', $(this).attr('href')).fadeIn(1000);
         $('.tesla-title h1').text($(this).text());
+        $('.main-title').text($(this).text());
+        $('.footer-right h3').text($(this).text());
+        $('.model-change').text($(this).text());
 
         e.preventDefault();
         $('.mobile-menu__nav >li a').css({'color': 'white'}, {'border-bottom': 'none'})

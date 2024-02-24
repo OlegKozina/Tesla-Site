@@ -672,7 +672,7 @@ display: flex;
 .footer-right h3{
     font-size: 148px;
     top: 176px;
-    left: 126px;
+    left: 60px;
 }
 .footer-right{
     height: 1025px;
@@ -728,7 +728,7 @@ display: flex;
         top: 400px;
     }
     .footer-right h3{
-        font-size: 90px;
+        font-size: 80px;
         left: 0;
         top: 110px;
     }
