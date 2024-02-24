@@ -94,7 +94,7 @@ nav li a:hover{
     float: right;
     top: 50px;
     right: 50px;
-    filter:brightness(10);
+    
 }
 
 .mobile-menu__item{
@@ -102,10 +102,12 @@ nav li a:hover{
   
 }
 .mobile-menu__nav img{
-    filter:brightness(10);
+    width: 50px;
+    position: relative;
+    top: 15px;
 }
 .mobile-menu__nav li{
-    margin-bottom: 20px;
+    margin-top: 30px;
 }
 .mobile-menu__nav li a:hover{
     color: black;
@@ -796,7 +798,7 @@ display: flex;
     cursor: pointer;
     float: right;
     top: -50px;
-    filter:brightness(10);
+
     }
 .modal__form-title{
     margin-bottom: 8px;
