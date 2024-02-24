@@ -16,7 +16,7 @@
     <header class="header">
       <div class="container">
         <nav>
-          <a href="#"
+          <a href="index.html"
             ><img src="./html_images/Tesla-Wordmark-Red.png" alt=""
           /></a>
           <ul class="menu1">
@@ -29,7 +29,7 @@
           <ul class="menu2">
             <li><a href="" class="menu__item">Shop</a></li>
             <li><a href="" class="menu__item">Sign up</a></li>
-            <li><img src="./html_images/menu.png" alt="" /></li>
+            <li><button class="menu_button" type="button" ><img src="./html_images/menu.png" alt="" /></button></li>
           </ul>
         </nav>
         <div class="tesla-title" style="background-image: url('./html_images/Tesla\ logo\ +\ car.png');">
@@ -61,7 +61,7 @@
           </div>
           <div class="order">Order</div>
         </div>
-        <a href="" class="arrow-bottom"
+        <a href="#footer" class="arrow-bottom"
           ><img src="./html_images/Vector.png" alt=""
         /></a>
       </div>
@@ -130,7 +130,7 @@
         </div>
       </div>
     </section>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="container">
         <div class="footer-inner">
           <div class="footer-left">
@@ -233,5 +233,43 @@
       </div>
       </div>
     </footer>
+    <div class="backdrop is-hidden">
+      <div class="modal">
+          <button class="cross-button modal-close" type="button"><img src="./html_images/icon-close.svg" alt=""></button>
+          <div class="modal__form_margin"></div>
+          <h2 class="modal__form-title section-titles">Order a car</h2>
+          <p class="modal__form-instruction">Fill out the form so we can contact you!</p>
+          <form class="modal__form" name="contact-form" autocomplete="off" validate>
+            <div class="form-field">
+              <label class="form-field__label visually-hidden" for="user-name">Name</label>
+              <input class="form-field__input" 
+                  type="text" 
+                  id="user-name" 
+                  name="user-name" 
+                  placeholder="Your name" 
+                  minlength="2"
+                  maxlength="20"
+                  required>
+            </div>
+           <div class="form-field">
+              <label class="form-field__label visually-hidden" for="phone">Phone</label>
+              <input class="form-field__input" 
+                  type="tel" 
+                  id="phone" 
+                  name="phone" 
+                  placeholder="Your phone" 
+                  pattern="^\+[0-9]{12}"
+                  required>
+           </div>
+            <div class="form-field">
+              <label class="form-field__label visually-hidden" for="e-mail">E-mail</label>
+            <input class="form-field__input" type="email" id="e-mail" name="e-mail" placeholder="Your e-mail" required>
+            </div>
+            <button class="modal__form_button button" type="submit">Contact us</button>
+           <p class="form-field__terms"><input class="checkbox" type="checkbox">I agree to the <a class="form-field__terms-link link" href="#">privacy policy</a></p>
+          </form>
+      </div> 
+   </div>
+    <script src="./js/main.js"></script>
   </body>
 </html>
