@@ -1,11 +1,11 @@
 const mobileMenu = document.querySelector('.mobile-menu');
 const mobileOpen = document.querySelector('.menu_button');
-const mobileClose = document.querySelector('.menu_close');
+const mobileClose = document.querySelectorAll('.menu_close');
 
 const toggleMenu = () => mobileMenu.classList.toggle('is-open');
 
 mobileOpen.addEventListener('click', toggleMenu);
-mobileClose.addEventListener('click', toggleMenu);
+mobileClose.forEach((el)=>el.addEventListener('click', toggleMenu));
 
 
 $(document).ready(function(){
