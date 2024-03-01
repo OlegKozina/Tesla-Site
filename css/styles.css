@@ -93,6 +93,9 @@ nav li a:hover {
   top: 50px;
   right: 50px;
 }
+.fa-xmark {
+  font-size: 2em;
+}
 
 .mobile-menu__item {
   color: #fff;
