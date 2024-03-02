@@ -14,5 +14,5 @@ Includes Model description, which varies depending on the chosen button in the h
 
 Added adaptive design to the site.
 
-An easy way to browse the site is by using github preview:
-https://htmlpreview.github.io/?https://github.com/OlegKozina/Tesla-Site/blob/main/index.html
+An easy way to browse the site is by following the link:
+ https://olegkozina.github.io/Tesla-Site/
