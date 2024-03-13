@@ -1,5 +1,9 @@
 ### Site example for Tesla car models
 
+**Web stack: HTML5, CSS3, Javascript, jQuery, VS Code**   
+*To work with this website, ensure you have the **Live sass compiler** installed for Sass compilation and use a **Live server** for optimal development experience.*   
+**A link to the design pages for this website**
+
 - Includes 3 parts
 
 ### Part 1 Header 
