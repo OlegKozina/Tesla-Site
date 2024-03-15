@@ -1,3 +1,4 @@
+//changing car pictures according to the chosen car model from the navigation
 $(document).ready(function () {
   $(".menu1 >li a").click(function (e) {
     $(".tesla-title img").hide().attr("src", $(this).attr("href")).fadeIn(1000);
